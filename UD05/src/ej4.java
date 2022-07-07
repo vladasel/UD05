@@ -7,6 +7,7 @@ public class ej4 {
 		Scanner sc = new Scanner(System.in);
 		System.out.println("introduce un radio: ");
 		String r = sc.nextLine();
+		sc.close();
 		System.out.println("el area del circulo es: "+(PI*Math.pow(Double.parseDouble(r), 2)));
 	}
 
